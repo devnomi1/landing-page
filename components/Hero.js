@@ -31,7 +31,11 @@ function Hero() {
           </div>
         </div>
       </div>
-      <Image src={APP_IMGS.heroImg} alt="Hero Image" />
+      <Image
+        src={APP_IMGS.heroImg}
+        alt="Hero Image"
+        className="hidden lg:block"
+      />
     </section>
   );
 }

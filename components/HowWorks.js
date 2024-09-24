@@ -64,7 +64,7 @@ function HowWorks() {
           </li>
         </ul>
       </div>
-      <Image src={APP_IMGS.howItWorkImg} alt="About Image"/>
+      <Image src={APP_IMGS.howItWorkImg} alt="About Image" className="hidden lg:block"/>
     </section>
   );
 }

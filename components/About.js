@@ -4,7 +4,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="mt-48 px-6 md:px-8 lg:10  max-w-[1512px] mx-auto flex items-center justify-between">
+    <section className="mt-48 px-6 md:px-8 lg:10  max-w-[1512px] mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
       <Image src={APP_IMGS.aboutImg} alt="About Image" />
       <div className="max-w-[750px]">
         <button className="px-5 py-3 border-2 border-black transition uppercase hover:bg-black hover:text-white mb-10">
